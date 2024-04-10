@@ -1,1 +1,0 @@
-made source file named "src" in order to store media and other data required for smooth functioning of web_application.
