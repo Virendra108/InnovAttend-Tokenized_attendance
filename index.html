@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Login/Signup as</h1>
+            <p>tell us about you</p>
+        </div>
+        <div class="boxes">
+            <button class="box" onclick="lightUpNextButton(this)">
+                <div class="image1"></div>
+                <p>Admin/Owner</p>
+            </button>
+            <button class="box" onclick="lightUpNextButton(this)">
+                <div class="image2"></div>
+                <p>Teacher</p>
+            </button>
+            <button class="box" onclick="lightUpNextButton(this)">
+                <div class="image3"></div>
+                <p>Student</p>
+            </button>
+        </div>
+        <div class="panel">
+            <button class="btn" id="nextButton" onclick="openWebpage()">Next</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
